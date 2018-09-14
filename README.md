@@ -1,6 +1,6 @@
 # terraform-vra-rhel6
 
-This is the vRA Rhel6 module
+This is the vRA Apache module
 
 ## Inputs
 
