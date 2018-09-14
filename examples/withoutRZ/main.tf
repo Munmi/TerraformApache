@@ -6,8 +6,8 @@ provider "vra7" {
 	insecure = "true"
 }
 
-module "terraform-vra-rhel6" {
-	source = "git::https://github.optum.com/IAC/terraform-vra-rhel6.git"
+module "terraform-vra-apache" {
+	source = "git::https://github.optum.com/IAC/terraform-vra-apache.git"
 	environment = "DEV"
 	network_zone = "intranet"
 	interface_zone = "Intranet"
@@ -21,5 +21,10 @@ module "terraform-vra-rhel6" {
 	unixid = "jeast"
 	disk = "50"
 	resilience_zone = "None"
+	ebiz_description = "Need this for IAC purposes"
+	ebiz_mui = "TIC"
+	ebiz_mui_selection = "TIC"
+	ebiz_apache_version = "2.4"
+	LOB = "Optum ET"
 	count = 1
 }

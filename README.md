@@ -1,4 +1,4 @@
-# terraform-vra-rhel6
+# terraform-vra-apache
 
 This is the vRA Apache module
 
