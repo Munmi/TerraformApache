@@ -11,7 +11,6 @@ module "terraform-vra-apache" {
 	environment = "DEV"
 	network_zone = "intranet"
 	interface_zone = "Intranet"
-	server_type = "APP"
 	cpu = "2"
 	memory = "4096"
 	datacenter = "ELR"
