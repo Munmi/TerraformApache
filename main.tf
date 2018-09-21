@@ -23,7 +23,7 @@ resource "vra7_resource" "sconfig" {
 	}
 	count = "${var.count}"
 	catalog_configuration = {
-		Optum.rules.use.agreement = "yes"
+		Optum.PaaS.Rules.Use.Agreement = "yes"
 		lease_days = ""
 	}
 	wait_timeout = 200
