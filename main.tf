@@ -1,4 +1,4 @@
-resource "vra7_resource" "sconfig" {
+resource "vra7_resource" "apache-full-support" {
 	catalog_name = "Apache Web Server"
 	resource_configuration = {
 		Apache_Full_Support.Optum.Environment = "${var.environment}"
