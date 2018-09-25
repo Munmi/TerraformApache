@@ -1,4 +1,4 @@
-# Terraform vRA Apache - without RZ
+# Terraform vRA Apache - with RZ
 
 Steps:
 
