@@ -1,6 +1,6 @@
 output "ip" {
-  value = ["${vra7_resource.sconfig.*.ip_address}"]
+  value = ["${vra7_resource.apache-full-support.*.ip_address}"]
 }
 output "server_name" {
-  value = ["${vra7_resource.sconfig.*.server_name}"]
+  value = ["${vra7_resource.apache-full-support.*.server_name}"]
 }

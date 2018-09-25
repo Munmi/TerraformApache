@@ -23,7 +23,7 @@ module "terraform-vra-apache" {
 	unixid = "jeast"
 	disk = "50"
 	resilience_zone = "None"
-	reservation_policy_id = "c0b92a7c-5da6-4b45-83f3-4833a525245e"
+	reservation_policy_id = "d3b736ac-ec2c-4dd1-9b71-ccde0a355993"
 	ebiz_description = "Need this for IAC purposes"
 	ebiz_mui = "TIC"
 	ebiz_mui_selection = "TIC"

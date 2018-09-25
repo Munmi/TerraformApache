@@ -2,7 +2,7 @@
 
 Steps:
 
-1) Create the four files above in your own directory. main.tf, terraform.tfvars, variables.tf, and .gitignore
+1) Create the four files above in your own directory. main.tf, terraform.tfvars, variables.tf, outputs.tf, and .gitignore
 
 2) Copy the information from the files on Github and put them in the respective files
 
