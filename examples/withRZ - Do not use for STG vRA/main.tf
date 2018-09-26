@@ -7,7 +7,7 @@ provider "vra7" {
 }
 
 module "terraform-vra-apache" {
-	source = "git::https://github.optum.com/TerraformModules/terraform-vra-apache.git?ref=v.0.1.0"
+	source = "git::https://github.optum.com/TerraformModules/terraform-vra-apache.git"
 	environment = "DEV"
 	network_zone = "intranet"
 	interface_zone = "Intranet"
